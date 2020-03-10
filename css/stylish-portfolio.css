@@ -350,6 +350,10 @@ footer.footer .social-link:hover {
     min-width: 100%;
     min-height: 100%;
 }
+iframe {
+    border: none;
+    margin bottom: : 5rem;
+}
 /* .content {
   position: fixed;
   bottom: 0;

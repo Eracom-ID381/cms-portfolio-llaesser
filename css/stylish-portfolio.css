@@ -228,6 +228,21 @@ h6 {
         margin-right: 5rem;
         margin-bottom: 4rem;
     }
+    /*  special caption*/
+    #invisibleCaption {
+        /* transition: opacity 0.25s; */
+        margin-left: 4rem;
+        margin-right: 5rem;
+        margin-bottom: 0rem;
+        margin-top: 20rem;
+        font-weight: 300;
+        font-size: 3rem;
+        color: #fff;
+    }
+    #uppercase {
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
     .portfolio-item img {
         -webkit-transition: -webkit-clip-path 0.25s ease-out;
         -webkit-clip-path: inset(-1px);
@@ -352,7 +367,7 @@ footer.footer .social-link:hover {
 }
 iframe {
     border: none;
-    margin bottom: : 5rem;
+    margin bottom: : 0;
 }
 /* .content {
   position: fixed;

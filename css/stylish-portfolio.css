@@ -44,8 +44,8 @@ h6 {
 }
 .scroll-to-top {
     position: fixed;
-    right: 15px;
-    bottom: 10px;
+    right: 30px;
+    bottom: 15px;
     display: none;
     width: 50px;
     height: 50px;
@@ -197,7 +197,7 @@ h6 {
     }
     .portfolio-item:hover .caption {
         -webkit-clip-path: inset(rem);
-        clip-path: inset(2rem);
+        /* clip-path: inset(2rem); */
         background-color: Black;
         /* opacity: 0.2; */
     }
@@ -231,7 +231,9 @@ footer.footer .social-link:hover {
 }
 .site-footer {
     /* background-color:#26272b; */
-    padding: 50px 0 35px;
+    padding: 50px 0 10px;
+    margin-top: -80px;
+    margin-left: -400px;
     /* font-size: 15px; */
     /* line-height: 24px; */
     /* color:#737373; */
@@ -287,7 +289,8 @@ footer.footer .social-link:hover {
     background-color: #33353d
 }
 .copyright-text {
-    margin: 0
+    margin: 0;
+    font-style: italic;
 }
 .colorblack {
     color: #999
@@ -391,3 +394,6 @@ a:link:hover {
 /* #page-bottom {
     margin-left: 50%
 } */
+.fab, .fad, .fal, .far, .fas {
+    line-height: 1.5;
+}

@@ -343,27 +343,7 @@ footer.footer .social-link:hover {
     .masthead h1 {
         font-size: 4.1rem;
         /* margin: 41rem; */
-        margin-top: 25rem;
-        margin-left: 0;
-        margin-right: 0;
-        color: rgba(250, 250, 250, 0.9);
-        padding-bottom: : -220rem;
-    }
-    .masthead h3 {
-        color: rgba(250, 250, 250, 0.3);
-        font-size: 4.1rem;
-        padding-bottom: : 20rem;
-        margin-bottom: : 10rem;
-    }
-}
-@media (max-height: 670px) {
-    .masthead {
-        height: 100vh;
-    }
-    .masthead h1 {
-        font-size: 4.1rem;
-        /* margin: 41rem; */
-        margin-top: 20rem;
+        margin-top: 27rem;
         margin-left: 0;
         margin-right: 0;
         color: rgba(250, 250, 250, 0.9);
@@ -409,19 +389,33 @@ footer.footer .social-link:hover {
         text-align: center
     }
 }
-@media (max-width:535px) {
+@media (max-width:537px) {
     .masthead h1 {
-        font-size: 4.1rem;
+        font-size: 3.5rem;
         /* margin: 41rem; */
-        margin-top: 28rem;
+        margin-top: 33rem;
         margin-left: 0;
         margin-right: 0;
         color: rgba(250, 250, 250, 0.9);
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    #footerTXT {
+        font-size: 2.5rem;
+        margin-left: 56.5rem;
+    }
+    .masthead h3 {
+        color: rgba(250, 250, 250, 0.3);
+        font-size: 3.5rem;
+        padding-bottom: : 20rem;
+        margin-bottom: : 10rem;
     }
     .masthead {
         /* min-height: 30rem; */
         position: relative;
         max-width: 100%;
+        max-height: 96%;
         display: table;
         width: 100%;
         height: auto;
@@ -458,6 +452,46 @@ footer.footer .social-link:hover {
         margin-left: 1rem;
         margin-right: 5rem;
         margin-bottom: 1.5rem;
+    }
+}
+#footerTXT {
+    font-size: 3rem;
+    margin-left: 68rem;
+}
+@media (max-width:1200px) {
+    .footer-links {
+        padding-left: 60rem;
+        list-style
+    }
+    .site-footer h6 {
+        color: black;
+        margin-left: : 20rem;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 0px;
+        letter-spacing: 2px
+    }
+    #footerTXT {
+        font-size: 3rem;
+        margin-left: 56.5rem;
+    }
+}
+@media (max-width:960px) {
+    .footer-links {
+        padding-left: 30rem;
+        list-style
+    }
+    .site-footer h6 {
+        color: black;
+        margin-left: : 20rem;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 0px;
+        letter-spacing: 2px
+    }
+    #footerTXT {
+        font-size: 3rem;
+        margin-left: 26.5rem;
     }
 }
 #myVideo {
@@ -501,10 +535,6 @@ iframe {
 .fa, .fas:hover {
     opacity: 0.5;
     text-align: center;
-}
-#footerTXT {
-    font-size: 3rem;
-    margin-left: 67.1rem;
 }
 a:link:hover {
     background-color: transparent;

@@ -380,6 +380,13 @@ footer.footer .social-link:hover {
     .site-footer [class^=col-] {
         margin-bottom: 30px
     }
+    .scroll-to-top {
+        opacity: 0;
+    }
+    #inlineFrameExample {
+        width: 500px;
+        height: 350px;
+    }
 }
 @media (max-width:767px) {
     .site-footer {

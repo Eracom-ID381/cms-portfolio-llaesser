@@ -89,43 +89,6 @@ h6 {
     color: rgba(250, 250, 250, 0.3);
     font-size: 4.1rem;
 }
-/* Side Menu */
-#sidebar-wrapper {
-    position: fixed;
-    z-index: 2;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    transition: all 0.1s ease 0s;
-    transform: translateX(250px);
-    background: black;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-}
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
-}
-.sidebar-nav>.sidebar-brand {
-    font-size: 1.2rem;
-    background: rgba(52, 58, 64, 0.1);
-    height: 80px;
-    line-height: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-}
-.sidebar-nav>.sidebar-brand a {
-    color: #fff;
-}
-.sidebar-nav>.sidebar-brand a:hover {
-    color: #fff;
-    background: none;
-}
-#sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    transition: all 0.4s ease 0s;
-}
 .portfolio-item {
     display: block;
     position: relative;
@@ -164,65 +127,9 @@ h6 {
     padding-bottom: : 5px;
     opacity: 0.87;
 }
-@media (min-width: 992px) {
-    .portfolio-item {
-        max-width: none;
-        margin: 0;
-        margin: auto auto 1rem;
-    }
-    .portfolio-item .caption {
-        -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-        -webkit-clip-path: inset(0px);
-        clip-path: inset(0px);
-    }
-    .portfolio-item .caption .caption-content {
-        /* transition: opacity 0.25s; */
-        margin-left: 4rem;
-        margin-right: 5rem;
-        margin-bottom: 4rem;
-    }
-    #uppercase {
-        font-size: 1rem;
-        text-transform: uppercase;
-    }
-    .portfolio-item img {
-        -webkit-transition: -webkit-clip-path 0.25s ease-out;
-        -webkit-clip-path: inset(-1px);
-        clip-path: inset(-1px);
-    }
-    .portfolio-item:hover .caption {
-        -webkit-clip-path: inset(rem);
-        /* clip-path: inset(2rem); */
-        background-color: Black;
-        /* opacity: 0.2; */
-    }
-}
 footer.footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-}
-footer.footer .social-link {
-    display: block;
-    height: 4rem;
-    width: 4rem;
-    line-height: 4.3rem;
-    font-size: 1.5rem;
-    background-color: #1D809F;
-    transition: background-color 0.15s ease-in-out;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-footer.footer .social-link:hover {
-    /* background-color: #155d74;
-    text-decoration: none; */
-}
-.bg-primary {
-    background-color: #1D809F !important;
-}
-.text-primary {
-    color: #1D809F !important;
-}
-.text-secondary {
-    color: #ecb807 !important;
 }
 .site-footer {
     /* background-color:#26272b; */
@@ -271,18 +178,6 @@ footer.footer .social-link:hover {
 .footer-links.inline li {
     display: inline-block
 }
-.site-footer .social-icons {
-    /* text-align: right */
-}
-.site-footer .social-icons a {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: 6px;
-    margin-right: 0;
-    border-radius: 100%;
-    background-color: #33353d
-}
 .copyright-text {
     font-style: italic;
     margin-left: 60%;
@@ -290,8 +185,56 @@ footer.footer .social-link:hover {
 .colorblack {
     color: #999
 }
-/* mediaqueries */
+/* Media Queries */
+@media (min-width:1680.99px) {
+    .masthead h1 {
+        font-size: 4.1rem;
+        /* margin: 41rem; */
+        margin-top: 42rem;
+        margin-left: 0;
+        margin-right: 0;
+        color: rgba(250, 250, 250, 0.9);
+        padding-bottom: : -220rem;
+    }
+    .masthead h3 {
+        color: rgba(250, 250, 250, 0.3);
+        font-size: 4.1rem;
+        padding-bottom: : 20rem;
+        margin-bottom: : 10rem;
+    }
+}
 @media (min-width: 992px) {
+    .portfolio-item {
+        max-width: none;
+        margin: 0;
+        margin: auto auto 1rem;
+    }
+    .portfolio-item .caption {
+        -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+        -webkit-clip-path: inset(0px);
+        clip-path: inset(0px);
+    }
+    .portfolio-item .caption .caption-content {
+        /* transition: opacity 0.25s; */
+        margin-left: 4rem;
+        margin-right: 5rem;
+        margin-bottom: 4rem;
+    }
+    #uppercase {
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    .portfolio-item img {
+        -webkit-transition: -webkit-clip-path 0.25s ease-out;
+        -webkit-clip-path: inset(-1px);
+        clip-path: inset(-1px);
+    }
+    .portfolio-item:hover .caption {
+        -webkit-clip-path: inset(rem);
+        /* clip-path: inset(2rem); */
+        background-color: Black;
+        /* opacity: 0.2; */
+    }
     .masthead {
         height: 100vh;
     }
@@ -314,6 +257,32 @@ footer.footer .social-link:hover {
         font-size: 4.1rem;
         padding-bottom: : 20rem;
         margin-bottom: : 10rem;
+    }
+}
+/* caption Media Query */
+@media (max-width:990px) {
+    .portfolio-item .caption .caption-content h2 {
+        font-size: 1rem;
+        text-transform: uppercase;
+        background: #FF0000;
+        padding: 15px;
+        padding-bottom: : 5px;
+        /* opacity: 0.9; */
+        margin-bottom: -10px;
+    }
+    .portfolio-item .caption .caption-content p {
+        font-weight: 300;
+        font-size: 2rem;
+        background: #000000;
+        padding: 15px;
+        padding-bottom: : 5px;
+        /* opacity: 0.9; */
+    }
+    .portfolio-item .caption .caption-content {
+        /* transition: opacity 0.25s; */
+        margin-left: 1rem;
+        margin-right: 5rem;
+        margin-bottom: 1.5rem;
     }
 }
 @media (max-height: 860px) {
@@ -408,6 +377,42 @@ footer.footer .social-link:hover {
     h1 {
         font-size: 3.5rem;
     }
+    @media (max-width:1200px) {
+        .footer-links {
+            padding-left: 60rem;
+            list-style
+        }
+        .site-footer h6 {
+            color: black;
+            margin-left: : 20rem;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 0px;
+            letter-spacing: 2px
+        }
+        #footerTXT {
+            font-size: 3rem;
+            margin-left: 56.5rem;
+        }
+    }
+    @media (max-width:960px) {
+        .footer-links {
+            padding-left: 30rem;
+            list-style
+        }
+        .site-footer h6 {
+            color: black;
+            margin-left: : 20rem;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 0px;
+            letter-spacing: 2px
+        }
+        #footerTXT {
+            font-size: 3rem;
+            margin-left: 26.5rem;
+        }
+    }
     #footerTXT {
         font-size: 2.5rem;
         margin-left: 56.5rem;
@@ -435,88 +440,9 @@ footer.footer .social-link:hover {
         background-repeat: no-repeat;
     }
 }
-/* caption Media Query */
-@media (max-width:990px) {
-    .portfolio-item .caption .caption-content h2 {
-        font-size: 1rem;
-        text-transform: uppercase;
-        background: #FF0000;
-        padding: 15px;
-        padding-bottom: : 5px;
-        /* opacity: 0.9; */
-        margin-bottom: -10px;
-    }
-    .portfolio-item .caption .caption-content p {
-        font-weight: 300;
-        font-size: 2rem;
-        background: #000000;
-        padding: 15px;
-        padding-bottom: : 5px;
-        /* opacity: 0.9; */
-    }
-    .portfolio-item .caption .caption-content {
-        /* transition: opacity 0.25s; */
-        margin-left: 1rem;
-        margin-right: 5rem;
-        margin-bottom: 1.5rem;
-    }
-}
 #footerTXT {
     font-size: 3rem;
     margin-left: 68rem;
-}
-@media (max-width:1200px) {
-    .footer-links {
-        padding-left: 60rem;
-        list-style
-    }
-    .site-footer h6 {
-        color: black;
-        margin-left: : 20rem;
-        font-size: 16px;
-        text-transform: uppercase;
-        margin-top: 0px;
-        letter-spacing: 2px
-    }
-    #footerTXT {
-        font-size: 3rem;
-        margin-left: 56.5rem;
-    }
-}
-@media (max-width:960px) {
-    .footer-links {
-        padding-left: 30rem;
-        list-style
-    }
-    .site-footer h6 {
-        color: black;
-        margin-left: : 20rem;
-        font-size: 16px;
-        text-transform: uppercase;
-        margin-top: 0px;
-        letter-spacing: 2px
-    }
-    #footerTXT {
-        font-size: 3rem;
-        margin-left: 26.5rem;
-    }
-}
-@media (min-width:1680.99px) {
-    .masthead h1 {
-        font-size: 4.1rem;
-        /* margin: 41rem; */
-        margin-top: 42rem;
-        margin-left: 0;
-        margin-right: 0;
-        color: rgba(250, 250, 250, 0.9);
-        padding-bottom: : -220rem;
-    }
-    .masthead h3 {
-        color: rgba(250, 250, 250, 0.3);
-        font-size: 4.1rem;
-        padding-bottom: : 20rem;
-        margin-bottom: : 10rem;
-    }
 }
 #myVideo {
     position: fixed;

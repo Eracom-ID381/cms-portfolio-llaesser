@@ -499,3 +499,45 @@ a:link:hover {
 .fab, .fad, .fal, .far, .fas {
     line-height: 1.5;
 }
+/* Photo gallery */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 120px;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    margin-right: 20px;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1550px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 50px;
+    }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+}

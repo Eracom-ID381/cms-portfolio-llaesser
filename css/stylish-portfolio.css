@@ -31,6 +31,16 @@ h5,
 h6 {
     font-weight: 700;
 }
+p {
+    font-size: 2rem;
+    padding: 100px;
+    text-align: justify;
+}
+h2 {
+    opacity: 0.5;
+    font-size: 4.1rem;
+    text-align: center;
+}
 .scroll-to-bottom {
     position: fixed;
     right: 15px;
@@ -118,6 +128,7 @@ h6 {
     padding-bottom: : 5px;
     opacity: 0.87;
     margin-bottom: -10px;
+    text-align: left;
 }
 .portfolio-item .caption .caption-content p {
     font-weight: 300;
@@ -126,6 +137,8 @@ h6 {
     padding: 15px;
     padding-bottom: : 5px;
     opacity: 0.87;
+    /* margin-left: -30px;
+    margin-bottom: -50px; */
 }
 footer.footer {
     padding-top: 5rem;
@@ -473,9 +486,8 @@ iframe {
 }
 #Portfolio {
     text-align: center;
-    font-size: 4rem;
-    padding-bottom: 2rem;
-    margin-top: 0rem;
+    font-size: 4.1rem;
+    margin-top: 1.5rem;
 }
 .fa, .fas {
     font-weight: 1900;
@@ -509,12 +521,34 @@ a:link:hover {
 .column {
     flex: 50%;
     max-width: 50%;
-    padding: 0 4px;
+    padding: 0 8px;
+}
+.columnpaysage {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 8px;
+}
+.columnportrait {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 8px;
 }
 .column img {
-    margin-top: 8px;
+    margin-top: 16px;
     vertical-align: middle;
     width: 100%;
+    margin-right: 20px;
+}
+.columnpaysage img {
+    margin-top: 16px;
+    vertical-align: left;
+    width: 200%;
+    margin-right: 20px;
+}
+.columnportrait img {
+    margin-top: 16px;
+    vertical-align: left;
+    width: 200%;
     margin-right: 20px;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */

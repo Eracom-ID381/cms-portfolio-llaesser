@@ -129,16 +129,15 @@ h2 {
     opacity: 0.87;
     margin-bottom: -10px;
     text-align: left;
+    margin-left: -30px;
 }
 .portfolio-item .caption .caption-content p {
     font-weight: 300;
     font-size: 3rem;
     background: #000000;
     padding: 15px;
-    padding-bottom: : 5px;
     opacity: 0.87;
-    /* margin-left: -30px;
-    margin-bottom: -50px; */
+    margin-left: -30px;
 }
 footer.footer {
     padding-top: 5rem;
@@ -539,7 +538,7 @@ a:link:hover {
     width: 100%;
     margin-right: 20px;
 }
-.columnpaysage img {
+.columnpaysaged img {
     margin-top: 16px;
     vertical-align: left;
     width: 200%;
@@ -574,4 +573,13 @@ a:link:hover {
         flex-wrap: wrap;
         padding: 0 4px;
     }
+}
+#iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    /* max-width: 100%;
+    height: auto;
+    text-align: center; */
 }

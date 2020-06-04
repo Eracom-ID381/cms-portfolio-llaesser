@@ -367,6 +367,8 @@ footer.footer {
     #inlineFrameExample {
         width: 500px;
         height: 350px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 @media (max-width:767px) {

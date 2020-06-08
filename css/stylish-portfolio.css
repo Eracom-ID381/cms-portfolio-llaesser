@@ -133,6 +133,7 @@ h2 {
     padding: 15px;
     opacity: 0.87;
     margin-left: -30px;
+    margin-bottom: -100px;
 }
 .colorblack {
     color: #999
@@ -191,25 +192,21 @@ h2 {
         height: 100vh;
     }
 }
-@media (max-width: 990px) and (min-width: 600px) {
+@media (max-width: 1900px) and (min-width: 995px) {
     .column {
         max-width: none;
         margin: 0;
     }
-    .row {
-        /* display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-        flex: 100%;
-        max-width: 100%; */
-        /* flex: 100%;
-        max-width: 100%;
-        margin: 50px 100px 20px 30px */
+    .portfolio-item .caption {
+        display: flex;
+        height: 105%;
+        width: 100%;
+        /* background-color: rgba(250, 250, 250, 0.1); */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
     }
-    /* .column {
-        flex: 100%;
-        max-width: 100%;
-    } */
 }
 }
 @media (max-height: 930px) {

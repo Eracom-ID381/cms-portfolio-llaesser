@@ -209,7 +209,27 @@ h2 {
     }
 }
 }
-@media (max-height: 930px) {
+@media (max-height: 1000px) {
+    .masthead {
+        height: 100vh;
+    }
+    .masthead h1 {
+        font-size: 4.1rem;
+        /* margin: 41rem; */
+        margin-top: 50rem;
+        margin-left: 0;
+        margin-right: 0;
+        color: rgba(250, 250, 250, 0.9);
+        padding-bottom: : -220rem;
+    }
+    .masthead h3 {
+        color: rgba(250, 250, 250, 0.3);
+        font-size: 4.1rem;
+        padding-bottom: : 20rem;
+        margin-bottom: : 10rem;
+    }
+}
+@media (max-height: 970px) {
     .masthead {
         height: 100vh;
     }
@@ -304,7 +324,7 @@ h2 {
     .masthead h1 {
         font-size: 4.1rem;
         /* margin: 41rem; */
-        margin-top: 20rem;
+        margin-top: 25rem;
         margin-left: 0;
         margin-right: 0;
         color: rgba(250, 250, 250, 0.9);
@@ -483,10 +503,9 @@ a:link:hover {
     background-color: transparent;
     text-decoration: none;
 }
-#Who:hover {}
-/* #page-bottom {
-    margin-left: 50%
-} */
+#Who {
+    opacity: 0.95;
+}
 .fab, .fad, .fal, .far, .fas {
     line-height: 1.5;
 }

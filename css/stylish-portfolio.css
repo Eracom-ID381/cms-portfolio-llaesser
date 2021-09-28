@@ -508,6 +508,11 @@ a:link:hover {
     .masthead {
         height: 100vh;
     }
+    #Portfolio {
+        text-align: center;
+        font-size: 3.1rem;
+        margin-top: 1rem;
+    }
     .masthead h1 {
         font-size: 4.1rem;
         margin-top: -2rem;

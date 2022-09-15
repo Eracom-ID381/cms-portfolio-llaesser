@@ -139,7 +139,7 @@ video:hover {
     display: grid;
     grid-gap: 15px;
     grid-template-columns: repeat(26, 1fr);
-    grid-template-rows: repeat(17, 60px);
+    grid-template-rows: repeat(17, 600px);
 }
 .item {
     background-color: #E0EAFC;

@@ -425,6 +425,12 @@ a:link:hover {
     padding: 0 120px;
     margin-bottom: 20px;
 }
+.rowpdf {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 150px;
+    margin-bottom: 20px;
+}
 /* Create four equal columns that sits next to each other */
 .column {
     flex: 50%;
